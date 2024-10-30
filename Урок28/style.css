@@ -1,0 +1,26 @@
+.k1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    font-style: italic;
+}
+
+.k2 {
+    text-decoration: line-through;
+}
+
+.k3 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.k4 {
+    word-spacing: 30px;
+    text-decoration: overline wavy;
+}
+
+.k5 {
+    word-spacing: 5px;
+    text-decoration: underline double;
+}
