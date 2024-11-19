@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.body {
+    height: 200vh;
+}
+
+.body--fixed{
+    overflow-y: hidden; /*убирает вертикальный скролл*/
+}
+
+.btn-open {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.modal {
+    position: fixed; /*чтобы модалка растянулась на весь вьюпорт*/
+    inset: 0; /*позичионирование*/
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000000c1;
+    font-size: 20px;
+    opacity: 0; /*непрозрачность*/
+    visibility: hidden; /*скрыт от курсора*/
+    transition: all .3s;
+}
+
+.modal--open{
+    opacity: 1;
+    visibility:visible;
+}
+
+.modal__window {
+    position: relative;
+    width: 50vw;
+    height: 40vh;
+    padding: 50px 20px 20px 20px;
+    background: #fff;
+    border-radius: 12px;
+}
+
+.model__close-btn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
