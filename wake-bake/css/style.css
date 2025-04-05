@@ -696,13 +696,13 @@
     position: relative;   
 }
 .contact__inner::before {
-    content: url("/img/decor/berries.png");
+    content: url("../img/decor/berries.png");
     position: absolute;
     top: -4%;
     left: 0;
 }
 .contact__inner::after {
-    content: url("/img/decor/berries-2.png");
+    content: url("../img/decor/berries-2.png");
     position: absolute;
     top: 7%;
     right: 0;
