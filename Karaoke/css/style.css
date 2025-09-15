@@ -396,7 +396,7 @@
     width: 100%;
     height: 150%;
     z-index: 1;
-    background: url(/img/bot/frame-phone.png) no-repeat;
+    background: url(../img/bot/frame-phone.png) no-repeat;
 }
 
 .bot__slider-wrapper {}
@@ -557,7 +557,7 @@
     top: 0;
     left: 0;
     position: absolute;
-    background: url(/img/bg-for-mick.png) 50% 50% /cover no-repeat;
+    background: url(../img/bg-for-mick.png) 50% 50% /cover no-repeat;
     width: 100%;
     height: 100%;
     z-index: -1;
@@ -1594,3 +1594,4 @@
     }
 
 }
+
