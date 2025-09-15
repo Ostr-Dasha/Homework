@@ -1,0 +1,148 @@
+:root {
+    --transition: all .4s;
+    --dark-color: #202124;
+    --light-color: #282b32;
+    --accent-orange: #f69020;
+}
+
+.body {
+    font-family: "Muller", sans-serif;
+    /* font-size: 16px;
+    font-weight: 400; - эти св-ва по умолч*/
+    letter-spacing: 0.03em;
+    color: #fff;
+    background: #131517;
+}
+
+.wrapper {
+    position: relative;
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 1;
+    /*разрешаем расширяться на све свободное про-во, чтобы header и footer прибило*/
+}
+
+.main__halls {}
+
+.main__advantages {
+    padding-bottom: 110px;
+    /* border-bottom: 1px solid white; */
+}
+.main__bot {
+    padding-bottom: 96px;
+}
+
+.main__answers {
+    padding-bottom: 130px;
+}
+
+.container {
+    max-width: 1850px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+.button {
+    max-width: 277px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60px;
+    padding: 3px 15px;
+    height: 70px;
+    background: linear-gradient(141deg, #ea422a 0%, #f69020 47.92%, #ffc619 100%);
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-wrap: nowrap;
+    text-align: center;
+    color: #252121;
+
+    transition: var(--transition);
+}
+
+.button:hover {
+    box-shadow: 0px 0px 34px 1px var(--accent-orange);
+}
+.button a {
+    padding: 20px;
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #ffffff12;
+}
+
+.title {
+    letter-spacing: 0.05em;
+    font-weight: 900;
+    font-size: 75px;
+    line-height: 1.33;
+    text-transform: uppercase;
+    /*не пойму почему letter-spacing норм наследуется, но не совпадает с макетом*/
+}
+
+.subtitle {
+    font-size: 24px;
+    line-height: 1.28;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.prev,
+.next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: 1px solid var(--light-color);
+    background: #2e3441;
+}
+
+.swiper-button-disabled {
+    background: transparent;
+}
+
+.pagination {
+    text-align: center;
+    line-height: 2;
+    font-size: 16px;
+    color: #606571;
+}
+
+.pagination .custom-current {
+    font-size: 24px;
+    color: #fff;
+}
+
+.pagination .pagination-separator {
+    margin-left: 9px;
+    margin-right: 6px;
+}
+
+/* не работает отображение активной кнопки в слайдере */

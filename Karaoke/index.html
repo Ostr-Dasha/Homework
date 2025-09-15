@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Караоке-клуб</title>
+    <link href="css/swiper-bundle.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body class="body">
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__top">
+                <div class="container">
+                    <div class="header__top-inner">
+                        <a class="header__logo" href="/">
+                            <img src="img/Logo.svg" alt="Логотип XARIZMA">
+                        </a>
+                        <ul class="header__top-info">
+                            <li class="header__top-phone">
+                                <div class="header__top-icon circle">
+                                    <img src="img/icons/shake_phone.svg" alt="">
+                                </div>
+                                <span>+38 (097) 970-90-90</span>
+                            </li>
+                            <li class="header__top-location">
+                                <div class="header__top-icon circle">
+                                    <img src="img/icons/location.svg" alt="">
+                                </div>
+                                <span>м. Лубянка</span>
+                            </li>
+                        </ul>
+                        <ul class="header__top-buttons">
+                            <li class="header__top-button1 button">
+                                <a href="#halls">
+                                    Наши залы
+                                </a>
+                            </li>
+                            <li class="header__top-button2 button">
+                                <a href="#bot">
+                                    Забронировать
+                                </a>
+                            </li>
+                        </ul>
+                        <a class="burger-icon" href="#">
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <section class="header__hero">
+                <div class="container">
+                    <div class="hero__inner">
+                        <div class="hero__content">
+                            <h3 class="hero__subtitle">
+                                Арендуй Караоке-Зал до 10 человек
+                            </h3>
+                            <!-- <div "> -->
+                            <h1 class="hero__title title">
+                                возьми алкоголь <br>
+                                и еду с собой
+                            </h1>
+                            <span class="hero__location">м. Лубянка</span>
+                            <!-- </div> -->
+                            <ul class="hero__goal-list">
+                                <li class="hero__goal-items">
+                                    <img class="hero__goal-img" src="img/icons/chek_in_cloud.svg" alt="">
+                                    <p class="hero__goal-text">
+                                        Если хочешь попеть <br>
+                                        и оторваться
+                                    </p>
+                                </li>
+                                <li class="hero__goal-items">
+                                    <img class="hero__goal-img" src="img/icons/chek_in_cloud.svg" alt="">
+                                    <p class="hero__goal-text">
+                                        Отдохнуть <br>
+                                        после работы
+                                    </p>
+                                </li>
+                                <li class="hero__goal-items">
+                                    <img class="hero__goal-img" src="img/icons/chek_in_cloud.svg" alt="">
+                                    <p class="hero__goal-text">
+                                        Хорошо <br>
+                                        провести время
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <a class="hero__button button" href="#bot">Забронировать онлайн</a>
+                        <ul class="hero__pluses-list">
+                            <li class="hero__pluses-items grid-1">
+                                <div class="hero__pluses-img">
+                                    <img src="img/icons/micro.svg" alt="">
+                                </div>
+                                <p class="hero__pluses-text">
+                                    Профессиональное караоке AST-50
+                                </p>
+                            </li>
+                            <li class="hero__pluses-items grid-2 hero__pluses-items--dark">
+                                <div class="hero__pluses-img">
+                                    <img src="img/icons/champagne_bottle.svg" alt="">
+                                </div>
+                                <p class="hero__pluses-text">
+                                    Без пробкового сбора
+                                </p>
+                            </li>
+                            <li class="hero__pluses-items grid-3">
+                                <div class="hero__pluses-img">
+                                    <img src="img/icons/cash_in_hand.svg" alt="">
+                                </div>
+                                <p class="hero__pluses-text">
+                                    Без депозита
+                                </p>
+                            </li>
+                            <li class="hero__pluses-items grid-4 hero__pluses-items--dark">
+                                <div class="hero__pluses-img">
+                                    <img src="img/icons/confetti 1.svg" alt="">
+                                </div>
+                                <p class="hero__pluses-text">
+                                    Скидка <br>в День Рождения
+                                </p>
+                            </li>
+                        </ul>
+                        <div class="hero__bg">
+                            <img class="hero__bg-room" src="img/bg1.jpg" alt="">
+                        </div>
+                        <img class="hero__bg-girl" src="img/girl.png" alt="">
+                        <div class="hero__label">
+                            <div class="hero__label-borders">
+                                <svg width="373" height="373" viewBox="0 0 373 373" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_d_7611_4)">
+                                        <circle cx="186" cy="169" r="122" fill="#FFC619" fill-opacity="0.19"
+                                            shape-rendering="crispEdges" />
+                                    </g>
+                                    <g filter="url(#filter1_d_7611_4)">
+                                        <mask id="path-2-inside-1_7611_4" fill="white">
+                                            <path
+                                                d="M308 169C308 236.379 253.379 291 186 291C118.621 291 64 236.379 64 169C64 101.621 118.621 47 186 47C253.379 47 308 101.621 308 169Z" />
+                                        </mask>
+                                        <g clip-path="url(#paint0_angular_7611_4_clip_path)"
+                                            data-figma-skip-parse="true" mask="url(#path-2-inside-1_7611_4)">
+                                            <g transform="matrix(0 0.122 -0.122 0 186 169)">
+                                                <foreignObject x="-1057.38" y="-1057.38" width="2114.75"
+                                                    height="2114.75">
+                                                    <div xmlns="http://www.w3.org/1999/xhtml"
+                                                        style="background:conic-gradient(from 90deg,rgba(250, 170, 28, 0.4962) 0deg,rgba(246, 144, 32, 0) 176.055deg,rgba(255, 198, 25, 1) 181.259deg,rgba(250, 170, 28, 0.4962) 360deg);height:100%;width:100%;opacity:0.66">
+                                                    </div>
+                                                </foreignObject>
+                                            </g>
+                                        </g>
+                                        <path
+                                            d="M308 169H301C301 232.513 249.513 284 186 284V291V298C257.245 298 315 240.245 315 169H308ZM186 291V284C122.487 284 71 232.513 71 169H64H57C57 240.245 114.755 298 186 298V291ZM64 169H71C71 105.487 122.487 54 186 54V47V40C114.755 40 57 97.7553 57 169H64ZM186 47V54C249.513 54 301 105.487 301 169H308H315C315 97.7553 257.245 40 186 40V47Z"
+                                            data-figma-gradient-fill="{&#34;type&#34;:&#34;GRADIENT_ANGULAR&#34;,&#34;stops&#34;:[{&#34;color&#34;:{&#34;r&#34;:0.96470588445663452,&#34;g&#34;:0.56470590829849243,&#34;b&#34;:0.12549020349979401,&#34;a&#34;:0.0},&#34;position&#34;:0.48904117941856384},{&#34;color&#34;:{&#34;r&#34;:1.0,&#34;g&#34;:0.77647060155868530,&#34;b&#34;:0.098039217293262482,&#34;a&#34;:1.0},&#34;position&#34;:0.50349736213684082}],&#34;stopsVar&#34;:[],&#34;transform&#34;:{&#34;m00&#34;:1.4940692183874199e-14,&#34;m01&#34;:-244.0,&#34;m02&#34;:308.0,&#34;m10&#34;:244.0,&#34;m11&#34;:1.4940692183874199e-14,&#34;m12&#34;:47.0},&#34;opacity&#34;:0.66000002622604370,&#34;blendMode&#34;:&#34;NORMAL&#34;,&#34;visible&#34;:true}"
+                                            mask="url(#path-2-inside-1_7611_4)" />
+                                    </g>
+                                    <g filter="url(#filter2_d_7611_4)">
+                                        <mask id="path-4-inside-2_7611_4" fill="white">
+                                            <path
+                                                d="M321 169.5C321 243.782 260.782 304 186.5 304C112.218 304 52 243.782 52 169.5C52 95.2177 112.218 35 186.5 35C260.782 35 321 95.2177 321 169.5Z" />
+                                        </mask>
+                                        <g clip-path="url(#paint1_angular_7611_4_clip_path)"
+                                            data-figma-skip-parse="true" mask="url(#path-4-inside-2_7611_4)">
+                                            <g transform="matrix(0 0.1345 -0.1345 0 186.5 169.5)">
+                                                <foreignObject x="-1014.87" y="-1014.87" width="2029.74"
+                                                    height="2029.74">
+                                                    <div xmlns="http://www.w3.org/1999/xhtml"
+                                                        style="background:conic-gradient(from 90deg,rgba(255, 198, 24, 0.4962) 0deg,rgba(255, 198, 24, 0) 176.055deg,rgba(255, 198, 25, 1) 181.259deg,rgba(255, 198, 24, 0.4962) 360deg);height:100%;width:100%;opacity:0.4">
+                                                    </div>
+                                                </foreignObject>
+                                            </g>
+                                        </g>
+                                        <path
+                                            d="M321 169.5H319C319 242.678 259.678 302 186.5 302V304V306C261.887 306 323 244.887 323 169.5H321ZM186.5 304V302C113.322 302 54 242.678 54 169.5H52H50C50 244.887 111.113 306 186.5 306V304ZM52 169.5H54C54 96.3223 113.322 37 186.5 37V35V33C111.113 33 50 94.1131 50 169.5H52ZM186.5 35V37C259.678 37 319 96.3223 319 169.5H321H323C323 94.1131 261.887 33 186.5 33V35Z"
+                                            data-figma-gradient-fill="{&#34;type&#34;:&#34;GRADIENT_ANGULAR&#34;,&#34;stops&#34;:[{&#34;color&#34;:{&#34;r&#34;:1.0,&#34;g&#34;:0.77647060155868530,&#34;b&#34;:0.098039209842681885,&#34;a&#34;:0.0},&#34;position&#34;:0.48904117941856384},{&#34;color&#34;:{&#34;r&#34;:1.0,&#34;g&#34;:0.77647060155868530,&#34;b&#34;:0.098039217293262482,&#34;a&#34;:1.0},&#34;position&#34;:0.50349736213684082}],&#34;stopsVar&#34;:[],&#34;transform&#34;:{&#34;m00&#34;:1.6471500948129006e-14,&#34;m01&#34;:-269.0,&#34;m02&#34;:321.0,&#34;m10&#34;:269.0,&#34;m11&#34;:1.6471500948129006e-14,&#34;m12&#34;:35.0},&#34;opacity&#34;:0.40000000596046448,&#34;blendMode&#34;:&#34;NORMAL&#34;,&#34;visible&#34;:true}"
+                                            mask="url(#path-4-inside-2_7611_4)" />
+                                    </g>
+                                    <g filter="url(#filter3_d_7611_4)">
+                                        <mask id="path-6-inside-3_7611_4" fill="white">
+                                            <path
+                                                d="M282 170C282 223.019 239.019 266 186 266C132.981 266 90 223.019 90 170C90 116.981 132.981 74 186 74C239.019 74 282 116.981 282 170Z" />
+                                        </mask>
+                                        <g clip-path="url(#paint2_angular_7611_4_clip_path)"
+                                            data-figma-skip-parse="true" mask="url(#path-6-inside-3_7611_4)">
+                                            <g transform="matrix(0 0.096 -0.096 0 186 170)">
+                                                <foreignObject x="-1020.83" y="-1020.83" width="2041.67"
+                                                    height="2041.67">
+                                                    <div xmlns="http://www.w3.org/1999/xhtml"
+                                                        style="background:conic-gradient(from 90deg,rgba(246, 144, 32, 0.4962) 0deg,rgba(246, 144, 32, 0) 176.055deg,rgba(246, 144, 32, 1) 181.259deg,rgba(246, 144, 32, 0.4962) 360deg);height:100%;width:100%;opacity:0.4">
+                                                    </div>
+                                                </foreignObject>
+                                            </g>
+                                        </g>
+                                        <path
+                                            d="M280 170C280 221.915 237.915 264 186 264V268C240.124 268 284 224.124 284 170H280ZM186 264C134.085 264 92 221.915 92 170H88C88 224.124 131.876 268 186 268V264ZM92 170C92 118.085 134.085 76 186 76V72C131.876 72 88 115.876 88 170H92ZM186 76C237.915 76 280 118.085 280 170H284C284 115.876 240.124 72 186 72V76Z"
+                                            data-figma-gradient-fill="{&#34;type&#34;:&#34;GRADIENT_ANGULAR&#34;,&#34;stops&#34;:[{&#34;color&#34;:{&#34;r&#34;:0.96470588445663452,&#34;g&#34;:0.56470590829849243,&#34;b&#34;:0.12549020349979401,&#34;a&#34;:0.0},&#34;position&#34;:0.48904117941856384},{&#34;color&#34;:{&#34;r&#34;:0.96470588445663452,&#34;g&#34;:0.56470590829849243,&#34;b&#34;:0.12549020349979401,&#34;a&#34;:1.0},&#34;position&#34;:0.50349736213684082}],&#34;stopsVar&#34;:[],&#34;transform&#34;:{&#34;m00&#34;:1.1756609784817611e-14,&#34;m01&#34;:-192.0,&#34;m02&#34;:282.0,&#34;m10&#34;:192.0,&#34;m11&#34;:1.1756609784817611e-14,&#34;m12&#34;:74.0},&#34;opacity&#34;:0.40000000596046448,&#34;blendMode&#34;:&#34;NORMAL&#34;,&#34;visible&#34;:true}"
+                                            mask="url(#path-6-inside-3_7611_4)" />
+                                    </g>
+                                    <defs>
+                                        <filter id="filter0_d_7611_4" x="12" y="12" width="348" height="348"
+                                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feColorMatrix in="SourceAlpha" type="matrix"
+                                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                            <feOffset dy="17" />
+                                            <feGaussianBlur stdDeviation="26" />
+                                            <feComposite in2="hardAlpha" operator="out" />
+                                            <feColorMatrix type="matrix"
+                                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.58 0" />
+                                            <feBlend mode="normal" in2="BackgroundImageFix"
+                                                result="effect1_dropShadow_7611_4" />
+                                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_7611_4"
+                                                result="shape" />
+                                        </filter>
+                                        <filter id="filter1_d_7611_4" x="12" y="12" width="348" height="348"
+                                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feColorMatrix in="SourceAlpha" type="matrix"
+                                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                            <feOffset dy="17" />
+                                            <feGaussianBlur stdDeviation="26" />
+                                            <feComposite in2="hardAlpha" operator="out" />
+                                            <feColorMatrix type="matrix"
+                                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.58 0" />
+                                            <feBlend mode="normal" in2="BackgroundImageFix"
+                                                result="effect1_dropShadow_7611_4" />
+                                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_7611_4"
+                                                result="shape" />
+                                        </filter>
+                                        <clipPath id="paint0_angular_7611_4_clip_path">
+                                            <path
+                                                d="M308 169H301C301 232.513 249.513 284 186 284V291V298C257.245 298 315 240.245 315 169H308ZM186 291V284C122.487 284 71 232.513 71 169H64H57C57 240.245 114.755 298 186 298V291ZM64 169H71C71 105.487 122.487 54 186 54V47V40C114.755 40 57 97.7553 57 169H64ZM186 47V54C249.513 54 301 105.487 301 169H308H315C315 97.7553 257.245 40 186 40V47Z"
+                                                mask="url(#path-2-inside-1_7611_4)" />
+                                        </clipPath>
+                                        <filter id="filter2_d_7611_4" x="0" y="0" width="373" height="373"
+                                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feColorMatrix in="SourceAlpha" type="matrix"
+                                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                            <feOffset dy="17" />
+                                            <feGaussianBlur stdDeviation="26" />
+                                            <feComposite in2="hardAlpha" operator="out" />
+                                            <feColorMatrix type="matrix"
+                                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.58 0" />
+                                            <feBlend mode="normal" in2="BackgroundImageFix"
+                                                result="effect1_dropShadow_7611_4" />
+                                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_7611_4"
+                                                result="shape" />
+                                        </filter>
+                                        <clipPath id="paint1_angular_7611_4_clip_path">
+                                            <path
+                                                d="M321 169.5H319C319 242.678 259.678 302 186.5 302V304V306C261.887 306 323 244.887 323 169.5H321ZM186.5 304V302C113.322 302 54 242.678 54 169.5H52H50C50 244.887 111.113 306 186.5 306V304ZM52 169.5H54C54 96.3223 113.322 37 186.5 37V35V33C111.113 33 50 94.1131 50 169.5H52ZM186.5 35V37C259.678 37 319 96.3223 319 169.5H321H323C323 94.1131 261.887 33 186.5 33V35Z"
+                                                mask="url(#path-4-inside-2_7611_4)" />
+                                        </clipPath>
+                                        <filter id="filter3_d_7611_4" x="38" y="39" width="296" height="296"
+                                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feColorMatrix in="SourceAlpha" type="matrix"
+                                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                            <feOffset dy="17" />
+                                            <feGaussianBlur stdDeviation="26" />
+                                            <feComposite in2="hardAlpha" operator="out" />
+                                            <feColorMatrix type="matrix"
+                                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.58 0" />
+                                            <feBlend mode="normal" in2="BackgroundImageFix"
+                                                result="effect1_dropShadow_7611_4" />
+                                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_7611_4"
+                                                result="shape" />
+                                        </filter>
+                                        <clipPath id="paint2_angular_7611_4_clip_path">
+                                            <path
+                                                d="M280 170C280 221.915 237.915 264 186 264V268C240.124 268 284 224.124 284 170H280ZM186 264C134.085 264 92 221.915 92 170H88C88 224.124 131.876 268 186 268V264ZM92 170C92 118.085 134.085 76 186 76V72C131.876 72 88 115.876 88 170H92ZM186 76C237.915 76 280 118.085 280 170H284C284 115.876 240.124 72 186 72V76Z"
+                                                mask="url(#path-6-inside-3_7611_4)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+                            <div class="hero__label-clock">
+                                <svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7 24C7 33.4 14.6 41 24 41C33.4 41 41 33.4 41 24C41 14.6 33.4 7 24 7C14.6 7 7 14.6 7 24Z"
+                                        fill="#131517" />
+                                    <path
+                                        d="M24 44C13 44 4 35 4 24C4 13 13 4 24 4C28.7 4 33.3 5.7 36.9 8.8L34.3 11.8C31.5 9.3 27.8 8 24 8C15.2 8 8 15.2 8 24C8 32.8 15.2 40 24 40V44Z"
+                                        fill="#606571" />
+                                    <path d="M27 12L19 6L27 0V12Z" fill="#FFC619" />
+                                    <path
+                                        d="M11 24C11 24.6 10.6 25 10 25H7V23H10C10.6 23 11 23.4 11 24ZM24 37C23.4 37 23 37.4 23 38V41H25V38C25 37.4 24.6 37 24 37ZM38 23C37.4 23 37 23.4 37 24C37 24.6 37.4 25 38 25H41V23H38Z"
+                                        fill="white" />
+                                    <path
+                                        d="M24 44C13 44 4 35 4 24C4 19.3 5.7 14.7 8.8 11.1L11.8 13.7C9.3 16.5 8 20.2 8 24C8 32.8 15.2 40 24 40C32.8 40 40 32.8 40 24C40 15.2 32.8 8 24 8V4C35 4 44 13 44 24C44 35 35 44 24 44Z"
+                                        fill="#FFC619" />
+                                    <path
+                                        d="M23 30H15V28.2L18.8 24.2C19.7 23.1 20.2 22.3 20.2 21.7C20.2 21.2 20.1 20.8 19.9 20.5C19.7 20.2 19.4 20.1 18.9 20.1C18.5 20.1 18.1 20.3 17.9 20.6C17.6 21 17.5 21.4 17.5 21.9H15C15 21.2 15.2 20.5 15.5 19.9C15.9 19.3 16.4 18.8 17 18.5C17.6 18.2 18.1 18 18.9 18C20.2 18 21.2 18.3 21.9 18.9C22.6 19.5 22.9 20.3 22.9 21.4C22.9 21.9 22.8 22.3 22.6 22.8C22.4 23.2 22.2 23.7 21.8 24.2C21.4 24.7 20.8 25.3 20 26.1L18.6 28H23V30ZM31.8 26H33V28H31.8V30H29V28H24.4L24.2 26.4L29 18H31.8V26ZM26.8 26H29V21.6L28.8 21.9L26.8 26Z"
+                                        fill="white" />
+                                </svg>
+                            </div>
+                            <div class="hero__label-text">
+                                <p>Можно шуметь<br><span>Круглосуточно</span></p>
+                            </div>
+                        </div>
+                        <div class="hero__contact">
+                            <div class="hero__contact-tg">
+                                <a href="#">
+                                    <img src="img/icons/telegram.svg" alt="telegram">
+                                </a>
+                            </div>
+                            <p>Связаться с нами</p>
+                        </div>
+                        <span class="hero__scrol">Листайте вниз</span>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <main class="main">
+            <section class="main__halls halls" id="halls">
+                <div class="container">
+                    <div class="halls__inner">
+                        <div class="halls__heading">
+                            <h2 class="halls__title title">Наши залы</h2>
+                            <h4 class="halls__subtitle subtitle"><span>Ознакомтесь</span> с атмосферой праздника</h4>
+                        </div>
+                        <ul class="halls__tab-list">
+                            <li class="halls__tab-item">
+                                <a class="halls__tab-link halls__tab-link--active" href="#hall1" data-hall="1">
+                                    Hall №1
+                                </a>
+                            </li>
+                            <li class="halls__tab-item">
+                                <a class="halls__tab-link" href="#hall2" data-hall="2">
+                                    Hall №2
+                                </a>
+                            </li>
+                            <li class="halls__tab-item">
+                                <a class="halls__tab-link" href="#hall3" data-hall="3">
+                                    Hall №3
+                                </a>
+                            </li>
+                            <li class="halls__tab-item">
+                                <a class="halls__tab-link" href="#hall5" data-hall="5">
+                                    Hall №5
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="halls__slider">
+                            <div class="halls__slider-max halls__slider-container">
+                                <div class="halls__slider-wrapper swiper-wrapper">
+                                </div>
+                            </div>
+                            <div class="halls__slider-min halls__slider-container">
+                                <div class="halls__slider-wrapper swiper-wrapper">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="halls__tabs-content">
+                            <ul class="halls__tab-content tab-content tab-content--show" id="hall1">
+                                <li class="tab-content__item">
+                                    <div class="tab-content__icon">
+                                        <img src="/img/icons/room.svg" alt="">
+                                    </div>
+                                    <p class="tab-content__text">
+                                        № 1
+                                    </p>
+                                </li>
+                                <li class="tab-content__item">
+                                    <div class="tab-content__icon">
+                                        <img src="/img/icons/expand.svg" alt="">
+                                    </div>
+                                    <p class="tab-content__text">
+                                        40 м<span>2</span>
+                                    </p>
+                                </li>
+                                <li class="tab-content__item">
+                                    <div class="tab-content__icon">
+                                        <img src="/img/icons/people.svg" alt="">
+                                    </div>
+                                    <p class="tab-content__text">
+                                        до 20-ти человек
+                                    </p>
+                                </li>
+                            </ul>
+                            <ul class="halls__tab-content tab-content" id="hall2">
+                                <li class="tab-content__item">
+                                    <div class="tab-content__icon">
+                                        <img src="/img/icons/room.svg" alt="">
+                                    </div>
+                                    <p class="tab-content__text">
+                                        № 2
+                                    </p>
+                                </li>
+                                <li class="tab-content__item">
+                                    <div class="tab-content__icon">
+                                        <img src="/img/icons/expand.svg" alt="">
+                                    </div>
+                                    <p class="tab-content__text">
+                                        35 м<span>2</span>
+                                    </p>
+                                </li>
+                                <li class="tab-content__item">
+                                    <div class="tab-content__icon">
+                                        <img src="/img/icons/people.svg" alt="">
+                                    </div>
+                                    <p class="tab-content__text">
+                                        до 15-ти человек
+                                    </p>
+                                </li>
+                            </ul>
+                            <ul class="halls__tab-content tab-content" id="hall5">
+                                <li class="tab-content__item">
+                                    <div class="tab-content__icon">
+                                        <img src="/img/icons/room.svg" alt="">
+                                    </div>
+                                    <p class="tab-content__text">
+                                        № 5
+                                    </p>
+                                </li>
+                                <li class="tab-content__item">
+                                    <div class="tab-content__icon">
+                                        <img src="/img/icons/expand.svg" alt="">
+                                    </div>
+                                    <p class="tab-content__text">
+                                        20 м<span>2</span>
+                                    </p>
+                                </li>
+                                <li class="tab-content__item">
+                                    <div class="tab-content__icon">
+                                        <img src="/img/icons/people.svg" alt="">
+                                    </div>
+                                    <p class="tab-content__text">
+                                        до 5-ти человек
+                                    </p>
+                                </li>
+                            </ul>
+                            <ul class="halls__tab-content tab-content" id="hall3">
+                                <li class="tab-content__item">
+                                    <div class="tab-content__icon">
+                                        <img src="/img/icons/room.svg" alt="">
+                                    </div>
+                                    <p class="tab-content__text">
+                                        № 3
+                                    </p>
+                                </li>
+                                <li class="tab-content__item">
+                                    <div class="tab-content__icon">
+                                        <img src="/img/icons/expand.svg" alt="">
+                                    </div>
+                                    <p class="tab-content__text">
+                                        30 м<span>2</span>
+                                    </p>
+                                </li>
+                                <li class="tab-content__item">
+                                    <div class="tab-content__icon">
+                                        <img src="/img/icons/people.svg" alt="">
+                                    </div>
+                                    <p class="tab-content__text">
+                                        до 10-ти человек
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="halls__nav nav">
+                            <button class="halls__prev prev" type="button">
+                                <svg width="13" height="20" viewBox="0 0 13 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11 2L2 11.2228M11 18L2 8.77722" stroke="#606571" stroke-width="4" />
+                                </svg>
+                            </button>
+                            <div class="halls__pagination pagination"></div>
+                            <button class="halls__next next" type="button">
+                                <svg width="13" height="20" viewBox="0 0 13 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2 2L11 11.2228M2 18L11 8.77722" stroke="#606571" stroke-width="4" />
+                                </svg>
+                            </button>
+                        </div>
+                        <a class="halls__button button" href="#">Забронировать</a>
+                    </div>
+                </div>
+            </section>
+            <section class="main__advantages advantages" id="advantages">
+                <div class="container">
+                    <div class="advantages__inner">
+                        <div class="advantages__heading">
+                            <h2 class="advantages__title title">наши Преимущества</h2>
+                            <h4 class="advantages__subtitle subtitle">Почему гости выбирают нас</h4>
+                        </div>
+                        <div class="advantages__content">
+                            <ul class="advantages__card-list">
+                                <li class="advantages__card-item card">
+                                    <div class="card__icon">
+                                        <img src="img/icons/shirt.svg" alt="">
+                                    </div>
+                                    <div class="card__text">
+                                        <h6 class="card__text-title">Никакого дресс-контроля</h6>
+                                    </div>
+                                </li>
+                                <li class="advantages__card-item card">
+                                    <div class="card__icon">
+                                        <img src="img/icons/cd-disk.svg" alt="">
+                                    </div>
+                                    <div class="card__text">
+                                        <h6 class="card__text-title">~ 40.000 песен в сет листе</h6>
+                                        <ul class="card__text-list">
+                                            <li class="card__text-item">
+                                                <img class="card__text-item-pin" src="img/icons/checked.svg" alt="">
+                                                <p>Более 50,000 студийных фонограмм</p>
+                                            </li>
+                                            <li class="card__text-item">
+                                                <img class="card__text-item-pin" src="img/icons/checked.svg" alt="">
+                                                <p>Ежемесячное обновления репертуара</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="advantages__card-item card">
+                                    <div class="card__icon">
+                                        <img src="img/icons/party.svg" alt="">
+                                    </div>
+                                    <div class="card__text">
+                                        <h6 class="card__text-title">Индивидуальные залы</h6>
+                                        <ul class="card__text-list">
+                                            <li class="card__text-item">
+                                                <img class="card__text-item-pin" src="img/icons/checked.svg" alt="">
+                                                <p>Только Ваша компания</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="advantages__card-item card">
+                                    <div class="card__icon">
+                                        <img src="img/icons/cash_in_hand.svg" alt="">
+                                    </div>
+                                    <div class="card__text">
+                                        <h6 class="card__text-title">Без депозита</h6>
+                                        <ul class="card__text-list">
+                                            <li class="card__text-item">
+                                                <img class="card__text-item-pin" src="img/icons/checked.svg" alt="">
+                                                <span>Мы не берем депозит</span>
+                                            </li>
+                                            <li class="card__text-item">
+                                                <img class="card__text-item-pin" src="img/icons/checked.svg" alt="">
+                                                <p>Оплата происходит за человека в час</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="advantages__card-item card">
+                                    <div class="card__icon">
+                                        <img src="img/icons/goal.svg" alt="">
+                                    </div>
+                                    <div class="card__text">
+                                        <h6 class="card__text-title">В самом центре Москвы</h6>
+                                        <ul class="card__text-list">
+                                            <li class="card__text-item">
+                                                <img class="card__text-item-pin" src="img/icons/checked.svg" alt="">
+                                                <p>м. Лубянка</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="advantages__card-item card">
+                                    <div class="card__icon">
+                                        <img src="img/icons/champagne_bottle.svg" alt="">
+                                    </div>
+                                    <div class="card__text">
+                                        <h6 class="card__text-title">Нет пробкового сбора</h6>
+                                        <ul class="card__text-list">
+                                            <li class="card__text-item">
+                                                <img class="card__text-item-pin" src="img/icons/checked.svg" alt="">
+                                                <p>Можно приносить с собой еду, напитки и алкоголь <span>без пробкового
+                                                        сбора</span></p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="advantages__visual">
+                                <div class="advantages__bg">
+                                    <img src="img/bg-for-mick.png" alt="">
+                                </div>
+                                <a class="advantages__button button" href="#bot">
+                                    Забронировать зал
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__bot bot" id="bot">
+                <div class="container">
+                    <div class="bot__inner">
+                        <div class="bot__heading">
+                            <h2 class="bot__title title">Как забронировать зал?</h2>
+                            <h4 class="bot__subtitle subtitle">бронирование по шагам в чат-боте</h4>
+                        </div>
+                        <div class="bot__nav nav">
+                            <button class="bot__prev prev" type="button">
+                                <svg width="13" height="20" viewBox="0 0 13 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11 2L2 11.2228M11 18L2 8.77722" stroke="#606571" stroke-width="4" />
+                                </svg>
+                            </button>
+                            <div class="bot__pagination pagination"></div>
+                            <button class="bot__next next" type="button">
+                                <svg width="13" height="20" viewBox="0 0 13 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2 2L11 11.2228M2 18L11 8.77722" stroke="#606571" stroke-width="4" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="bot__slider-container swiper-container">
+                            <div class="bot__slider-wrapper swiper-wrapper">
+                                <div class="bot__slide swiper-slide">
+                                    <div class="bot__slide-img">
+                                        <div class="bot__slide-number">1</div>
+                                        <img src="img/bot/phone-1.png" alt="">
+                                    </div>
+                                    <div class="bot__slide-info">
+                                        <div class="bot__slide-icon">
+                                            <img src="img/icons/enter.svg" alt="">
+                                        </div>
+                                        <h6 class="bot__slide-text">Перейти в чат-бот <span>fh_harizma_bot</span></h6>
+                                    </div>
+
+                                </div>
+                                <div class="bot__slide swiper-slide">
+                                    <div class="bot__slide-img">
+                                        <div class="bot__slide-number">2</div>
+                                        <img src="img/bot/phone-2.png" alt="">
+                                    </div>
+                                    <div class="bot__slide-info">
+                                        <div class="bot__slide-icon">
+                                            <img src="img/icons/crowd.svg" alt="">
+                                        </div>
+                                        <h6 class="bot__slide-text">Выбрать колличество человек</h6>
+                                    </div>
+                                </div>
+                                <div class="bot__slide swiper-slide">
+                                    <div class="bot__slide-img">
+                                        <div class="bot__slide-number">3</div>
+                                        <img src="img/bot/phone-3.png" alt="">
+                                    </div>
+                                    <div class="bot__slide-info">
+                                        <div class="bot__slide-icon">
+                                            <img src="img/icons/present.svg" alt="">
+                                        </div>
+                                        <h6 class="bot__slide-text">Выбрать колличество часов посещения</h6>
+                                    </div>
+                                </div>
+                                <div class="bot__slide swiper-slide">
+                                    <div class="bot__slide-img">
+                                        <div class="bot__slide-number">4</div>
+                                        <img src="img/bot/phone-4.png" alt="">
+                                    </div>
+                                    <div class="bot__slide-info">
+                                        <div class="bot__slide-icon">
+                                            <img src="img/icons/calendar.svg" alt="">
+                                        </div>
+                                        <h6 class="bot__slide-text">Выбрать дату</h6>
+                                    </div>
+                                </div>
+                                <div class="bot__slide swiper-slide">
+                                    <div class="bot__slide-img">
+                                        <div class="bot__slide-number">5</div>
+                                        <img src="img/bot/phone-5.png" alt="">
+                                    </div>
+                                    <div class="bot__slide-info">
+                                        <div class="bot__slide-icon">
+                                            <img src="img/icons/stopwatch.svg" alt="">
+                                        </div>
+                                        <h6 class="bot__slide-text">Выбрать время старта брони</h6>
+                                    </div>
+                                </div>
+                                <div class="bot__slide swiper-slide">
+                                    <div class="bot__slide-img">
+                                        <div class="bot__slide-number">6</div>
+                                        <img src="img/bot/phone-1.png" alt="">
+                                    </div>
+                                    <div class="bot__slide-info">
+                                        <div class="bot__slide-icon">
+                                            <img src="img/icons/enter.svg" alt="">
+                                        </div>
+                                        <h6 class="bot__slide-text">Перейти в чат-бот <span>fh_harizma_bot</span></h6>
+                                    </div>
+                                </div>
+                                <div class="bot__slide swiper-slide">
+                                    <div class="bot__slide-img">
+                                        <div class="bot__slide-number">7</div>
+                                        <img src="img/bot/phone-2.png" alt="">
+                                    </div>
+                                    <div class="bot__slide-info">
+                                        <div class="bot__slide-icon">
+                                            <img src="img/icons/crowd.svg" alt="">
+                                        </div>
+                                        <h6 class="bot__slide-text">Выбрать колличество человек</h6>
+                                    </div>
+                                </div>
+                                <div class="bot__slide swiper-slide">
+                                    <div class="bot__slide-img">
+                                        <div class="bot__slide-number">8</div>
+                                        <img src="img/bot/phone-3.png" alt="">
+                                    </div>
+                                    <div class="bot__slide-info">
+                                        <div class="bot__slide-icon">
+                                            <img src="img/icons/present.svg" alt="">
+                                        </div>
+                                        <h6 class="bot__slide-text">Выбрать колличество часов посещения</h6>
+                                    </div>
+                                </div>
+                                <div class="bot__slide swiper-slide">
+                                    <div class="bot__slide-img">
+                                        <div class="bot__slide-number">9</div>
+                                        <img src="img/bot/phone-4.png" alt="">
+                                    </div>
+                                    <div class="bot__slide-info">
+                                        <div class="bot__slide-icon">
+                                            <img src="img/icons/calendar.svg" alt="">
+                                        </div>
+                                        <h6 class="bot__slide-text">Выбрать дату</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__answers answers" id="answers">
+                <div class="container">
+                    <div class="answers__inner">
+                        <div class="answers__heading">
+                            <h2 class="answers__title title">Вопросы и ответы</h2>
+                            <h4 class="answers__subtitle subtitle">Мы подготовили ответы на часто задаваемые вопросы
+                            </h4>
+                        </div>
+                        <div class="answers__content">
+                            <ul class="accordion-list">
+                                <li class="accordion-list__item">
+                                    <a class="accordion-list__control" href="#">
+                                        <h3 class="accordion-list__control-title">
+                                            Какое у вас караоке?
+                                        </h3>
+                                        <div class="accordion-list__control-icon">
+                                            <svg width="20" height="13" viewBox="0 0 20 13" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M18 2L8.77722 11M2 2L11.2228 11" stroke="#FFC619"
+                                                    stroke-width="4" />
+                                            </svg>
+                                        </div>
+                                    </a>
+                                    <div class="accordion-list__content">
+                                        <div class="accordion-content">
+                                            <p>
+                                                Более 50,000 студийных фонограмм. Из них 80% - оригинальные минусовки в
+                                                качестве PRO (mp3 - WAV).<br>
+                                                Ежемесячное обновления репертуара.<br>
+                                                Более 10,000 специальных фонограмм в сопровождении оригинальных
+                                                видеоклипов.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="accordion-list__item">
+                                    <a class="accordion-list__control" href="#">
+                                        <h3 class="accordion-list__control-title">
+                                            Есть ли у вас английские песни?
+                                        </h3>
+                                        <div class="accordion-list__control-icon">
+                                            <svg width="20" height="13" viewBox="0 0 20 13" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M18 2L8.77722 11M2 2L11.2228 11" stroke="#FFC619"
+                                                    stroke-width="4" />
+                                            </svg>
+                                        </div>
+                                    </a>
+                                    <div class="accordion-list__content">
+                                        <div class="accordion-content">
+                                            <p>
+                                                Да, у нас в караоке-баре представлен широкий выбор английских песен
+                                                различных жанров и эпох. Вы сможете исполнить популярные хиты и
+                                                классические композиции на английском языке, чтобы сделать ваше
+                                                выступление незабываемым.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="accordion-list__item">
+                                    <a class="accordion-list__control" href="#">
+                                        <h3 class="accordion-list__control-title">
+                                            Можно ли подключить телефон?
+                                        </h3>
+                                        <div class="accordion-list__control-icon">
+                                            <svg width="20" height="13" viewBox="0 0 20 13" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M18 2L8.77722 11M2 2L11.2228 11" stroke="#FFC619"
+                                                    stroke-width="4" />
+                                            </svg>
+                                        </div>
+                                    </a>
+                                    <div class="accordion-list__content">
+                                        <div class="accordion-content">
+                                            <p>
+                                                Да, в нашем караоке-баре вы можете подключить свой телефон и
+                                                воспроизвести любимые песни через наше оборудование. Просто следуйте
+                                                инструкциям наших сотрудников, и ваше выступление будет готово в
+                                                считанные минуты.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="accordion-list__item">
+                                    <a class="accordion-list__control" href="#">
+                                        <h3 class="accordion-list__control-title">
+                                            Сколько микрофонов в каждом зале?
+                                        </h3>
+                                        <div class="accordion-list__control-icon">
+                                            <svg width="20" height="13" viewBox="0 0 20 13" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M18 2L8.77722 11M2 2L11.2228 11" stroke="#FFC619"
+                                                    stroke-width="4" />
+                                            </svg>
+                                        </div>
+                                    </a>
+                                    <div class="accordion-list__content">
+                                        <div class="accordion-content">
+                                            <p>
+                                                В каждом зале нашего караоке-баре предусмотрено несколько микрофонов,
+                                                чтобы гости могли выступать одновременно или по очереди. Точное
+                                                количество зависит от выбранного зала, обычно от 2 до 4 микрофонов для
+                                                комфортного использования.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="accordion-list__item">
+                                    <a class="accordion-list__control" href="#">
+                                        <h3 class="accordion-list__control-title">
+                                            Есть ли оплата картой?
+                                        </h3>
+                                        <div class="accordion-list__control-icon">
+                                            <svg width="20" height="13" viewBox="0 0 20 13" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M18 2L8.77722 11M2 2L11.2228 11" stroke="#FFC619"
+                                                    stroke-width="4" />
+                                            </svg>
+                                        </div>
+                                    </a>
+                                    <div class="accordion-list__content">
+                                        <div class="accordion-content">
+                                            <p>
+                                                Да, у нас можно оплатить картой.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="accordion-list__item">
+                                    <a class="accordion-list__control" href="#">
+                                        <h3 class="accordion-list__control-title">
+                                            Как рассчитывается стоимость?
+                                        </h3>
+                                        <div class="accordion-list__control-icon">
+                                            <svg width="20" height="13" viewBox="0 0 20 13" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M18 2L8.77722 11M2 2L11.2228 11" stroke="#FFC619"
+                                                    stroke-width="4" />
+                                            </svg>
+                                        </div>
+                                    </a>
+                                    <div class="accordion-list__content">
+                                        <div class="accordion-content">
+                                            <p>
+                                                Стоимость рассчитывается в зависимости от выбранного времени, зоны и
+                                                дополнительных услуг. Подробную информацию можно получить у
+                                                администратора или на стойке регистрации.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="accordion-list__item">
+                                    <a class="accordion-list__control" href="#">
+                                        <h3 class="accordion-list__control-title">
+                                            Можно ли приносить с собой алкоголь и еду?
+                                        </h3>
+                                        <div class="accordion-list__control-icon">
+                                            <svg width="20" height="13" viewBox="0 0 20 13" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M18 2L8.77722 11M2 2L11.2228 11" stroke="#FFC619"
+                                                    stroke-width="4" />
+                                            </svg>
+                                        </div>
+                                    </a>
+                                    <div class="accordion-list__content">
+                                        <div class="accordion-content">
+                                            <p>
+                                                Пожалуйста, уточните у администратора, обычно мы придерживаемся
+                                                политики, согласно которой алкоголь и еда предоставляются только из
+                                                наших запасов.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="answers__info">
+                                <h5 class="answers__info-header">
+                                    В нашем заведении Бельгийский ковролин. На входе выдают <span>индивидуально
+                                        запакованные тапочки,</span> в&nbsp;которые необходимо переобуться.
+                                </h5>
+                                <div class="answers__info-img">
+                                    <img src="img/bg-slippers.png" alt="">
+                                </div>
+                                <a class="answers__info-button button" href="#bot">Забронировать зал</a>
+                            </div>
+                        </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <a class="footer__logo" href="#">
+                        <img src="img/Logo.svg" alt="Логотип XARIZMA">
+                    </a>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <div class="footer__icon circle">
+                                <img src="img/icons/shake_phone.svg" alt="">
+                            </div>
+                            <span>+38 (097) 970-90-90</span>
+                        </li>
+                        <li class="footer__item">
+                            <div class="footer__icon circle">
+                                <img src="img/icons/calendar2.svg" alt="">
+                            </div>
+                            <span>Пн — Вс круглосуточно</span>
+                        </li>
+                        <li class="footer__item">
+                            <div class="footer__icon circle">
+                                <img src="img/icons/location.svg" alt="">
+                            </div>
+                            <span>м. Лубянка, ул. Сретенский переулок, 4</span>
+                        </li>
+                    </ul>
+                    <a class="footer__button button" href="#">Построить маршрут</a>
+                    <div class="footer__scrol">
+                        <span>Подняться вверх</span>
+                        <a class="footer__scrol-btn next" href="#">
+                            <svg width="13" height="20" viewBox="0 0 13 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 2L11 11.2228M2 18L11 8.77722" stroke="#606571" stroke-width="4" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
