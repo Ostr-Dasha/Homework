@@ -198,7 +198,7 @@
 }
 
 .halls__slider-min .swiper-slide-thumb-active::before {
-    background-image: url(/img/icons/icons8_eye.svg);
+    background-image: url(../img/icons/icons8_eye.svg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 50px 50px;
@@ -324,7 +324,7 @@
 }
 
 .advantages__bg::before {
-    content: url(/img/bg-mick.png);
+    content: url(../img/bg-mick.png);
     position: absolute;
     left: 0;
     bottom: 10px;
@@ -1592,4 +1592,5 @@
     .bot__title {
         font-size: 29px;
     }
+
 }
